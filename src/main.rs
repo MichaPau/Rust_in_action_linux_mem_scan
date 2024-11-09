@@ -23,7 +23,7 @@ fn main() {
         //type in 123456789
         //run 'sudo cargo run -- galculator' with the function below enabled
         
-        //hack_extern_process(_exe_name, "123456789", "calc hack");
+        //update_extern_process(_exe_name, "123456789", "calc hack");
         
         //resize the galculator window so it gets redrawn
         
@@ -42,7 +42,7 @@ fn main() {
 }
 
 #[allow(unused)]
-fn hack_extern_process(extern_exe: String, _find: &str, _replace: &str) {
+fn update_extern_process(extern_exe: String, _find: &str, _replace: &str) {
     
     let find = _find.as_bytes();
     let replace =  _replace.as_bytes();
